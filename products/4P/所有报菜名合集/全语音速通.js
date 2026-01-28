@@ -1,0 +1,277 @@
+try{MRE.open();}catch(e){};
+clearProject();
+player_datas[0].nickname="一姬";
+player_datas[1].nickname="10^100姬";
+player_datas[2].nickname="G64姬";
+player_datas[3].nickname="TREE3姬";
+player_datas[0].avatar_id=400102;
+player_datas[1].avatar_id=400103;
+player_datas[2].avatar_id=400104;
+player_datas[3].avatar_id=400105;
+//settings.chuanma_points_method=0;
+setConfig({
+  'category':2,
+  'meta':{'mode_id':11},
+  'mode':{
+    'mode':1,
+    'detail_rule':{
+      'begin_open_mode':0,
+      'chuanma':0,
+      'dora3_mode':0,
+      'dora_count':3,
+      'fanfu':1,
+      'guyi_mode':0,
+      'have_zimosun':true,
+      'huansanzhang':0,
+      'open_hand':0,
+      'init_point':400000,
+      'muyu_mode':0,
+      'shiduan':1,
+      'xuezhandaodi':0,
+      'xueliu':0
+    }
+  }
+});
+//gamebegin();
+begin_tiles[0]="1m9m1p9p1s3s9s9s1z2z3z4z5z6z";
+begin_tiles[1]="1m9m1p9p1s9s1z2z3z4z5z6z7z";
+begin_tiles[2]="2s2s2s3s4s4s4s6s6s6s8s8s8s";
+begin_tiles[3]="2p2p3p3p4p4p0p6p6p7p7p8p8p";
+randomPaishan("","");
+roundBegin();
+liuju();
+//roundend();
+begin_tiles[0]="1m1m1m2m3m4m0m6m7m8m9m9m9m1z";
+begin_tiles[1]="1p1p1p2p3p4p0p6p7p8p9p9p9p";
+begin_tiles[2]="1s1s1s2s3s4s0s6s7s8s9s9s9s";
+begin_tiles[3]="2z3z3z3z5z5z5z6z6z6z7z7z7z";
+randomPaishan("1z1z1z","4z4z4z4z6m");
+roundBegin();
+qiepai("1z");
+mopai();
+qiepai();
+mopai();
+qiepai();
+mopai();
+qiepai();
+liuju();
+//roundend();
+begin_tiles[0]="1m1m1m2m2m2m3m3m3m6m1z1z2z2z";
+begin_tiles[1]="1p1p1p2p2p2p3p3p3p2z2z3z3z";
+begin_tiles[2]="1s1s1s2s2s2s3s3s3s3z3z4z4z";
+begin_tiles[3]="1z1z4z4z5z5z5z6z6z6z7z7z7z";
+randomPaishan("6m6m6m","");
+roundBegin();
+qiepai("6m",true);
+mopai();
+qiepai(true);
+mopai();
+qiepai(true);
+mopai();
+qiepai(true);
+liuju();
+//roundend();
+begin_tiles[0]="1z4z4z4z5z5z5z5z6z6z6z7z7z7z";
+begin_tiles[1]="2s2s2s3s4s4s4s6s6s6s8s8s8s";
+begin_tiles[2]="1m1m1m2m3m4m5m6m7m8m9m9m9m";
+begin_tiles[3]="1p1p1p2p3p4p0p6p7p8p9p9p9p";
+randomPaishan("","3z8s6z7z");
+roundBegin();
+zimingpai();
+mopai();
+zimingpai();
+mopai();
+zimingpai();
+mopai();
+qiepai(true);
+mingpai(1,["8s","8s","8s"]);
+mopai();
+qiepai();
+liuju();
+//roundend();
+begin_tiles[0]="1m9m1p9p1s9s1z2z3z4z5z6z7z3s";
+begin_tiles[1]="1m9m1p9p1s9s1z2z3z4z5z6z7z";
+begin_tiles[2]="1m9m1p9p1s9s1z2z3z4z5z6z7z";
+begin_tiles[3]="1m9m1p9p1s9s1z2z3z4z5z6z7z";
+setPaishan("3s3s3s2m2m2m2m3m3m3m3m4m4m4m4m5m5m5m0m6m6m6m6m7m7m7m7m8m8m8m8m2p2p2p2p3p3p3p3p4p4p4p4p5p5p5p0p6p6p6p6p7p7p7p7p8p8p8p8p2s2s2s2s4s4s4s4s5s5s5s0s6s6s6s6s7s7s7s7s8s8s8s8s");
+roundBegin();
+qiepai("3s",true);
+for(let i=1;i<=69;++i){
+	mopai();
+	qiepai();
+}
+huangpai();
+//roundend();
+begin_tiles[0]="1p2p2s1z1z1z5z5z5z6z6z6z7z7z";
+begin_tiles[1]="2s2s3s3s3s4s4s4s6s6s8s8s2z";
+begin_tiles[2]="1p1p1p2p2p2p3p3p3p2z2z3z1s";
+begin_tiles[3]="1m1m1m2m2m2m6s6s8s8s3z3z3z";
+randomPaishan("","1z9m8m7m3p1s7s7s7s7s9p4z7z4z7z4z4z0m8p8p5z6z");
+roundBegin();
+qiepai("2s");
+mingpai(1,["3s","4s"]);
+qiepai("2z");
+mingpai(2);
+qiepai("1s");
+for(let i=1;i<=61;++i){
+	mopai();
+	qiepai();
+}
+mopai();
+zimingpai();
+mopai();
+zimingpai();
+mopai();
+zimingpai();
+mopai();
+qiepai(true);
+mopai();
+qiepai();
+mopai();
+qiepai();
+mopai();
+qiepai();
+mopai();
+hupai();
+//roundend();
+begin_tiles[0]="3s1z2z2z2z5z5z5z6z6z6z7z7z7z";
+begin_tiles[1]="1m1m1m1m2m2m2m2m3m3m3m3m9m";
+begin_tiles[2]="5m0m7m7m4p4p9p9p2s2s6s6s1z";
+begin_tiles[3]="1p2p3p4p0p6p7p8p9p5s5s0s1z";
+randomPaishan("3s3s3s2z","1z6m9m9m9m8m1p4z4z4s4z4s4z4s4s3z5z6z7z");
+roundBegin();
+qiepai("3s",true);
+mopai();
+qiepai(true);
+mopai();
+qiepai();
+mopai();
+qiepai(true);
+mopai();
+zimingpai();
+mopai();
+zimingpai();
+mopai();
+zimingpai();
+mopai();
+zimingpai();
+for(let i=1;i<=61;++i){
+	mopai();
+	qiepai();
+}
+mopai();
+qiepai();
+hupai([0,2,3]);
+//roundend();
+begin_tiles[0]="1m1m1m2m3m4m0m6m7m8m9m9m9m7z";
+begin_tiles[1]="1z1z1z2z2z2z3z3z4z4z6z6z6z";
+begin_tiles[2]="1p1p1p2p3p4p0p6p7p8p9p9p9p";
+begin_tiles[3]="1s1s1s2s3s4s0s6s7s8s9s9s9s";
+randomPaishan("4z","");
+roundBegin();
+qiepai("7z",true);
+mopai();
+hupai();
+//roundend();
+begin_tiles[1]="1s1s1s2s3s4s5s5s6s7s8s9s9s1m";
+begin_tiles[2]="1m1m1m9m9m9m1p1p1p9p9p9p9s";
+begin_tiles[3]="2m2m3m3m4m4m0m6m6m7m7m8m8m";
+begin_tiles[0]="2m3m4m4p5p6p6p6p7s8s4z4z4z";
+randomPaishan("9s","3z2z3z2z3z5s5m1s9m");
+roundBegin();
+qiepai("1m");
+mingpai(2);
+mopai();
+zimingpai();
+mopai();
+qiepai();
+mopai();
+qiepai();
+hupai([0,1,2]);
+//roundend();
+begin_tiles[1]="1m1m1m2m3m4m5m6m7m8m9m9m9m6s";
+begin_tiles[2]="1s1s1s2s3s4s5s6s7s8s9s9s9s";
+begin_tiles[3]="2s2s2s3s3s3s6s8s8s8s6z6z6z";
+begin_tiles[0]="4m0m6m4p4p4p4p0p5p6p6p4s0s";
+randomPaishan("","3p1p2p6p7p");
+roundBegin();
+qiepai("6s",true);
+hupai([0,2,3]);
+//roundend();
+begin_tiles[2]="2p2p3p3p4p4p0p6p6p7p7p8p8p9s";
+begin_tiles[3]="1m9m1s9s1p9p1z2z3z4z5z6z7z";
+begin_tiles[0]="1m9m1p1p9p1s1z2z3z4z5z6z7z";
+begin_tiles[1]="1m1m2m2m3m3m7m7m8m8m9m9m9s";
+randomPaishan("","1p2p3p4p5p");
+roundBegin();
+qiepai("9s",true);
+hupai([0,1,3]);
+//roundend();
+begin_tiles[3]="1p1p1p9p3s1z1z1z4z4z4z5z5z5z";
+begin_tiles[0]="2p2p2p3p3p3p4p4p4p3s3s6m7z";
+begin_tiles[1]="1s1s2s6m7m8m3z3z3z7z7z7z2z";
+begin_tiles[2]="1s1s2s5s6s7s7s8s8s8s8s9s2p";
+randomPaishan("4s4s","6z1m9s1m0s1m7s6m3s3p4p");
+roundBegin();
+qiepai("3s");
+mingpai(0);
+qiepai("7z");
+mopai();
+qiepai("2z");
+mopai();
+qiepai("2p");
+mingpai(0,["2p","2p","2p"]);
+mopai();
+zimingpai();
+mopai();
+zimingpai();
+mopai();
+zimingpai();
+hupai([1,2]);
+//roundend();
+begin_tiles[0]="2s2s2s2s5s5s5s0s8s8s8s8s1z7z";
+begin_tiles[1]="3s3s3s4s6s6s6s9p9p9p6z6z6z";
+begin_tiles[2]="3s4s4s4s2p2p2p3p3p3p4p4p4p";
+begin_tiles[3]="6s7s7s7s2m2m2m3m3m3m4m4m4m";
+setPaishan("6m6m6m1m2m3m4m1m2p3p4p1m5m5m0m1m7m7m7m9m5m6m7m9m8m8m8m9m5p5p0p9m6p6p6p1p7p7p7p1p5p6p7p1p8p8p8p1p8m8p7s9p2z2z2z2z3z3z3z3z4z4z4z4z5z5z5z5z6z7z7z7z1s1s1s1s9s9s9s9s1z1z1z");
+roundBegin();
+qiepai("7z");
+mopai();
+qiepai(true);
+mopai();
+qiepai(true);
+mopai();
+qiepai(true);
+for(let i=1;i<=66;++i){
+	mopai();
+	qiepai();
+}
+huangpai();
+//roundend();
+begin_tiles[1]="1m1m1m2m2m2m3m3m3m4m4m4m7m2z";
+begin_tiles[2]="9m9m9m9p9p9p9s9s9s1z2z2z3z";
+begin_tiles[3]="1s1s1s2s2s2s3s3s3s4s4s4s8s";
+begin_tiles[0]="1p1p1p2p2p2p3p3p3p8p4z4z4z";
+randomPaishan("9m","8m8m8m7p7p3z2z");
+roundBegin();
+qiepai("2z");
+mingpai(2);
+qiepai("1z");
+mopai();
+qiepai();
+mingpai(2,["9m","9m","9m"]);
+mopai();
+zimingpai();
+mopai();
+hupai();
+//roundend();
+begin_tiles[2]="1z1z1z2z2z2z3z3z3z4z4z4z7z7z";
+begin_tiles[3]="1m1m1m2m3m4m0m6m7m8m9m9m9m";
+begin_tiles[0]="1p1p1p2p3p4p0p6p7p8p9p9p9p";
+begin_tiles[1]="1s1s1s2s3s4s0s6s7s8s9s9s9s";
+randomPaishan("","");
+roundBegin();
+hupai();
+//roundend();
+//gameend();
+try{MRE.close();}catch(e){};
